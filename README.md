@@ -18,11 +18,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0011-container-with-most-water) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0044-wildcard-matching) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 ## Math
 |  |
 | ------- |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0044-wildcard-matching) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 ## Recursion
 |  |
 | ------- |
@@ -63,4 +66,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 <!---LeetCode Topics End-->
