@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0344-reverse-string) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
+| [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
 ## Recursion
 |  |
 | ------- |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0020-valid-parentheses) |
+| [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
 ## Sliding Window
 |  |
 | ------- |
@@ -154,4 +156,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3623-count-number-of-trapezoids-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3625-count-number-of-trapezoids-ii) |
+## Simulation
+|  |
+| ------- |
+| [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
 <!---LeetCode Topics End-->
