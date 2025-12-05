@@ -2,17 +2,16 @@ class Solution {
     public int countPartitions(int[] nums) {
         int n = nums.length;
         int count = 0;
+        int tSum = 0;
 
+        for(int i = 0; i<n; i++){
+            tSum+=nums[i];
+        }
+
+        int sum1 = 0;
         for(int i = 0; i<n-1; i++){
-            int sum1 = 0;
-            for(int j = 0; j<=i; j++){
-                sum1+=nums[j];
-            }
-
-            int sum2 = 0;
-            for(int k = i+1; k<n; k++){
-                sum2+=nums[k];
-            }
+            sum1 += nums[i];
+           int sum2 = tSum-sum1;
     
             if ((sum1 % 2) == (sum2 % 2)){
                 count++;
