@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0344-reverse-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
