@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0044-wildcard-matching) |
+| [0206-reverse-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0231-power-of-two) |
 ## Tree
 |  |
@@ -192,5 +193,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0141-linked-list-cycle) |
+| [0206-reverse-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
