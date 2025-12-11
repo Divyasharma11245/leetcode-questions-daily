@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3583-count-special-triplets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3583-count-special-triplets) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
+| [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
+| [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
 ## Binary Indexed Tree
 |  |
 | ------- |
