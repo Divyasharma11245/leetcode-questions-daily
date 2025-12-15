@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0020-valid-parentheses) |
+| [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0146-lru-cache) |
+| [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -279,4 +281,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
