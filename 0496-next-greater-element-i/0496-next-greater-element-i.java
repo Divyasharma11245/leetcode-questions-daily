@@ -23,22 +23,15 @@ class Solution {
        //phle saare next greater ko index ke sath hashmap me store krle
         HashMap<Integer, Integer> map = new HashMap<>();
         ArrayList<Integer> nextGreater = findnextGreater(nums2);
-        for(int i = 0; i<nextGreater.size(); i++){
-            map.put(i, nextGreater.get(i));
+        for(int i = 0; i<nums2.length; i++){
+            map.put(nums2[i], nextGreater.get(i));
         }
 
         int n = nums1.length;
-        int m = nums2.length;
         int ans[] = new int[n];
         for(int i = 0; i<n; i++){
-            int greater = 0;
-            for(int j =0; j<m; j++){
-                if(nums1[i]==nums2[j]){
-                     greater = map.get(j);
-                     ans[i] = greater;
+                 ans[i] = map.get(nums1[i]);
                 }
+                return ans;
             }
         }
-        return ans;
-    }
-}
