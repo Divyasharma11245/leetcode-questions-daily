@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0027-remove-element) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0078-subsets) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
 | [0136-single-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0137-single-number-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0020-valid-parentheses) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
