@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0560-subarray-sum-equals-k) |
 | [0622-design-circular-queue](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0622-design-circular-queue) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0860-lemonade-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0455-assign-cookies) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0860-lemonade-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0860-lemonade-change) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0518-coin-change-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0518-coin-change-ii) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Memoization
 |  |
@@ -186,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0455-assign-cookies) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
