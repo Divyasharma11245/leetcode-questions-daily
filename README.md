@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
+| [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
+| [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 ## Math
 |  |
 | ------- |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
+| [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 | [3433-count-mentions-per-user](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
 ## Binary Indexed Tree
