@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+    int diameter = 0;
     private int height(TreeNode root) {
         if(root==null){
             return -1;
@@ -21,6 +22,8 @@ class Solution {
         
         int leftH = height(root.left);
         int rightH = height(root.right);
+
+        diameter = Math.max(diameter, leftH+rightH+2);
         
         int currH = Math.max(leftH, rightH)+1;
         
@@ -32,13 +35,7 @@ class Solution {
             return 0;
         }
 
-        int lDiam = diameterOfBinaryTree(root.left);
-        int rDiam = diameterOfBinaryTree(root.right);
-        int rHeight = height(root.right);
-        int lHeight = height(root.left);
-
-        int selfDiam = lHeight+rHeight+2;
-
-        return Math.max(lDiam, Math.max(rDiam, selfDiam));
+        height(root);
+        return diameter;
     }
 }
