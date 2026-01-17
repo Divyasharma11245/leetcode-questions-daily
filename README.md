@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
 ## Binary Tree
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 ## Sorting
 |  |
 | ------- |
@@ -373,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0543-diameter-of-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0572-subtree-of-another-tree) |
+| [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 ## Monotonic Stack
 |  |
 | ------- |
