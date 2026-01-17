@@ -14,32 +14,25 @@
  * }
  */
 class Solution {
-    private TreeNode inorder(TreeNode root, List<Integer>list){
+    private boolean valid(TreeNode root, TreeNode min, TreeNode max){
         if(root==null){
-            return root;
+            return true;
         }
-        inorder(root.left, list);
-        list.add(root.val);
-        inorder(root.right, list);
-
-        return root;
-    }
-    private List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        if(root==null){
-            return list;
+        if(min!=null&&root.val<=min.val){
+            return false;
+        }else if(max!=null&&root.val>=max.val){
+            return false;
+        }else{
+            return valid(root.left, min, root)&&valid(root.right, root, max);
         }
-        inorder(root, list);
 
-        return list;
     }
     public boolean isValidBST(TreeNode root) {
-        List<Integer> list = inorderTraversal(root);
-        for(int i = 1; i<list.size(); i++){
-            if(list.get(i-1)>=list.get(i)){
-                return false;
-            }
+        if(root==null){
+            return true;
         }
-        return true;
+        TreeNode min = null;
+        TreeNode max = null;
+        return valid(root, min, max);
     }
 }
