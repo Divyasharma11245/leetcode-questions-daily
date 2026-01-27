@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0137-single-number-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
 | [0260-single-number-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0283-move-zeroes) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
@@ -233,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
@@ -354,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0387-first-unique-character-in-a-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0387-first-unique-character-in-a-string) |
 | [3583-count-special-triplets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3583-count-special-triplets) |
 ## Divide and Conquer
@@ -362,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0023-merge-k-sorted-lists) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0973-k-closest-points-to-origin](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0973-k-closest-points-to-origin) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
 ## Heap (Priority Queue)
