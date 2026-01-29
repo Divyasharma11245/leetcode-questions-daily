@@ -1,25 +1,24 @@
 class Solution {
-    public int numSubarraysWithSum(int[] nums, int goal) {
-        int n = nums.length;
-        int prefix[] = new int[n];
-        prefix[0] = nums[0];
-        for(int i = 1; i<n; i++){
-            prefix[i] = prefix[i-1]+nums[i];
+     public int noSub(int nums[],int k){
+        if(k<0){
+            return 0;
         }
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int count = 0;
-        map.put(0,1);
-
-        for(int j = 0; j<prefix.length; j++){
-            int val = prefix[j]-goal;
-            if(map.containsKey(val)){
-                count+=map.get(val);
+        int l=0;
+        int ans=0;
+        int temp=0;
+        for(int r=0;r<nums.length;r++){
+            temp+=nums[r];
+            while(temp>k){
+                temp-=nums[l];
+                l++;
             }
-                map.put(prefix[j], map.getOrDefault(prefix[j], 0)+1);
-            
+            ans+=r-l+1;
         }
+        return ans;
 
-        return count;
+    }
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        int finalans=noSub(nums,goal)-noSub(nums,goal-1);
+        return finalans;
     }
 }
