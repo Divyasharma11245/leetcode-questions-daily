@@ -436,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -454,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0102-binary-tree-level-order-traversal) |
 | [0226-invert-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0226-invert-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 ## String Matching
 |  |
 | ------- |
@@ -476,8 +478,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 ## Graph Theory
 |  |
 | ------- |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 <!---LeetCode Topics End-->
