@@ -1,26 +1,15 @@
 class Solution {
-    private int[] bfsUtil(ArrayList<Integer> []graph, boolean vis[], int start){
-        Queue<Integer> q = new LinkedList<>();
-
-        q.add(start);
+    private void dfsUtil(ArrayList<Integer>[]graph, boolean vis[], int start, int info[]){
         vis[start] = true;
+         info[0]++;  
+         info[1] += graph[start].size();
 
-        int nodes = 0;
-        int edges = 0;
-        while(!q.isEmpty()){
-            int curr = q.remove();
-            nodes++;
-
-            edges += graph[curr].size();
-             for (int neigh : graph[curr]) {
-            if (!vis[neigh]) {
-                vis[neigh] = true;
-                q.add(neigh);
+        for(int i = 0; i<graph[start].size(); i++){
+            int neigh = graph[start].get(i);
+            if(!vis[neigh]){
+                dfsUtil(graph, vis, neigh, info);
             }
         }
-        }
-        return new int[]{nodes, edges / 2};
-    
     }
     public int countCompleteComponents(int n, int[][] edges) {
         ArrayList<Integer>[] graph = new ArrayList[n];
@@ -40,18 +29,20 @@ class Solution {
         boolean vis[] = new boolean[n];
         int count= 0 ;
 
+
         for(int i = 0; i<graph.length; i++){
             if(!vis[i]){
-                int[] res = bfsUtil(graph, vis, i);
-                int nodes = res[0];
-                int ed = res[1];
+            int info[] = new int[2];
+            dfsUtil(graph, vis, i, info);
+            int nodes = info[0];
+            int ed = info[1] / 2; 
 
-                
                 if (ed == nodes * (nodes - 1) / 2) {
                     count++;
-                }
             }
         }
-        return count;
+        
     }
+    return count;
+}
 }
