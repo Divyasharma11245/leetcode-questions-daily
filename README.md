@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0622-design-circular-queue](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0622-design-circular-queue) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
+| [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0860-lemonade-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0930-binary-subarrays-with-sum) |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0543-diameter-of-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0797-all-paths-from-source-to-target) |
@@ -466,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0210-course-schedule-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0226-invert-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0797-all-paths-from-source-to-target) |
@@ -493,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
@@ -516,5 +520,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 <!---LeetCode Topics End-->
