@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0930-binary-subarrays-with-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0974-subarray-sums-divisible-by-k) |
+| [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1019-next-greater-node-in-linked-list) |
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0797-all-paths-from-source-to-target) |
+| [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 ## String Matching
@@ -511,4 +513,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
+## Matrix
+|  |
+| ------- |
+| [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 <!---LeetCode Topics End-->
