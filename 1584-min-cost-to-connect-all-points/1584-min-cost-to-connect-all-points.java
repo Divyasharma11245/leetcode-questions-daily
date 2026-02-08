@@ -1,34 +1,44 @@
 class Solution {
+    class Pair implements Comparable<Pair> {
+        int v;
+        int cost;
+
+        Pair(int v, int cost) {
+            this.v = v;
+            this.cost = cost;
+        }
+
+        public int compareTo(Pair p2) {
+            return this.cost - p2.cost;
+        }
+    }
     public int minCostConnectPoints(int[][] points) {
 
         int n = points.length;
         boolean[] vis = new boolean[n];
 
-        int[] minDist = new int[n];
-        Arrays.fill(minDist, Integer.MAX_VALUE);
-
-        minDist[0] = 0;
+        PriorityQueue<Pair> pq = new PriorityQueue<>();
+        pq.add(new Pair(0, 0));   // start from node 0
 
         int totalCost = 0;
+        int count = 0;
 
-        for (int i = 0; i < n; i++) {
+        while (count < n) {
 
-            int u = -1;
+            Pair curr = pq.poll();
+            int u = curr.v;
 
-            for (int j = 0; j < n; j++) {
-                if (!vis[j] && (u == -1 || minDist[j] < minDist[u])) {
-                    u = j;
-                }
-            }
+            if (vis[u]) continue;
 
             vis[u] = true;
-            totalCost += minDist[u];
+            totalCost += curr.cost;
+            count++;
 
             for (int v = 0; v < n; v++) {
                 if (!vis[v]) {
                     int cost = Math.abs(points[u][0] - points[v][0])
                              + Math.abs(points[u][1] - points[v][1]);
-                    minDist[v] = Math.min(minDist[v], cost);
+                    pq.add(new Pair(v, cost));
                 }
             }
         }
