@@ -445,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0257-binary-tree-paths) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0543-diameter-of-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0572-subtree-of-another-tree) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
@@ -475,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0127-word-ladder) |
 | [0210-course-schedule-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0226-invert-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
@@ -504,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1584-min-cost-to-connect-all-points) |
@@ -513,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0210-course-schedule-ii) |
+| [0547-number-of-provinces](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0787-cheapest-flights-within-k-stops) |
