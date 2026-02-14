@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1584-min-cost-to-connect-all-points) |
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
@@ -459,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 ## Monotonic Stack
@@ -491,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-all-paths-from-source-to-target](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0797-all-paths-from-source-to-target) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 ## String Matching
@@ -552,8 +555,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1584-min-cost-to-connect-all-points) |
+## Strongly Connected Component
+|  |
+| ------- |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 <!---LeetCode Topics End-->
