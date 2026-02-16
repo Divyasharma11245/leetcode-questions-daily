@@ -1,15 +1,17 @@
 class Solution {
-    public int climbStairs(int n) {
-         int dp[] = new int[n + 1];
-        dp[0] = 1;
-
-        for (int i = 1; i <= n; i++) {
-            if (i == 1) {
-                dp[i] = dp[i - 1];
-            } else {
-                dp[i] = dp[i - 1] + dp[i - 2];
-            }
+    private int stepsUtil(int n, int steps[]){
+        if(n==1||n==2||n==3){
+            return n;
         }
-        return dp[n];
+        if(steps[n]!=0){
+            return steps[n];
+        }
+        steps[n] =  stepsUtil(n-1, steps)+stepsUtil(n-2, steps);
+        return steps[n];
+    }
+    public int climbStairs(int n) {
+       int steps[] = new int[n+1];
+       int finalAns = stepsUtil(n, steps);
+       return finalAns;
     }
 }
