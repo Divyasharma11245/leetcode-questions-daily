@@ -1,8 +1,8 @@
 class Solution {
 
     int time;
-    int[] dt, low;
-    boolean[] visited;
+    int[][] disc, low;
+    boolean[][] visited;
     boolean hasArticulation;
     int rows, cols;
 
@@ -13,76 +13,37 @@ class Solution {
 
         if (countIslands(grid) != 1) return 0;
 
-        int landCount = 0;
-        for (int[] row : grid)
-            for (int cell : row)
-                if (cell == 1) landCount++;
+        int landCells = 0;
+        for(int i = 0; i<rows; i++){
+            for(int j = 0; j<cols; j++){
+                if(grid[i][j]==1){
+                    landCells++;
+                }
+            }
+        }
 
-        if (landCount <= 2) return landCount;
+        if (landCells == 1) return 1;
 
-        int total = rows * cols;
-        dt = new int[total];
-        low = new int[total];
-        visited = new boolean[total];
+        disc = new int[rows][cols];
+        low = new int[rows][cols];
+        visited = new boolean[rows][cols];
         time = 0;
         hasArticulation = false;
 
+        outer:
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == 1) {
-                    dfs(grid, i, j, -1);
-                    break;
-                }
-            }
+                tarjan(i, j, -1, -1, grid);
+                break outer;
         }
-
-        return hasArticulation ? 1 : 2;
     }
-
-    private void dfs(int[][] grid, int r, int c, int parent) {
-
-        int id = r * cols + c;
-        visited[id] = true;
-        dt[id] = low[id] = ++time;
-
-        int children = 0;
-
-        int[][] dirs = {{1,0},{-1,0},{0,1},{0,-1}};
-
-        for (int[] d : dirs) {
-            int nr = r + d[0];
-            int nc = c + d[1];
-
-            if (nr < 0 || nc < 0 || nr >= rows || nc >= cols)
-                continue;
-            if (grid[nr][nc] == 0)
-                continue;
-
-            int nid = nr * cols + nc;
-
-            if (!visited[nid]) {
-
-                children++;
-                dfs(grid, nr, nc, id);
-
-                low[id] = Math.min(low[id], low[nid]);
-
-                if (parent != -1 && dt[id] <= low[nid]) {
-                    hasArticulation = true;
-                }
-
-            } else if (nid != parent) {
-                low[id] = Math.min(low[id], dt[nid]);
-            }
-        }
-
-        if (parent == -1 && children > 1) {
-            hasArticulation = true;
-        }
+}
+    if (hasArticulation) return 1;
+    return 2;
     }
 
     private int countIslands(int[][] grid) {
-
         boolean[][] vis = new boolean[rows][cols];
         int count = 0;
 
@@ -112,4 +73,35 @@ class Solution {
         dfsCount(grid, r, c+1, vis);
         dfsCount(grid, r, c-1, vis);
     }
+
+    private void tarjan(int r, int c, int pr, int pc, int[][] grid){
+        visited[r][c] = true;
+        disc[r][c]=low[r][c] = ++time;
+        int children = 0;
+        
+        int[][] dirs = {{1,0},{-1,0},{0,1},{0,-1}};
+        for(int[] dir: dirs){
+                int nr = r + dir[0];
+                int nc = c + dir[1];
+
+                if (nr < 0 || nc < 0 || nr >= rows || nc >= cols)
+                continue;
+
+                if (grid[nr][nc] == 0)
+                continue;
+
+                if (!visited[nr][nc]) {
+                    children++;
+                    tarjan(nr, nc, r, c, grid);
+                    low[r][c] = Math.min(low[r][c], low[nr][nc]);
+                    if (pr != -1 && low[nr][nc] >= disc[r][c])
+                        hasArticulation = true;
+                }
+                else if (nr != pr || nc != pc) {
+                    low[r][c] = Math.min(low[r][c], disc[nr][nc]);
+                }
+        }
+        if (pr == -1 && children > 1)
+        hasArticulation = true;
+}
 }
