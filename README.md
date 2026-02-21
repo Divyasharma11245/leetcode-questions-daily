@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0518-coin-change-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Memoization
 |  |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
