@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
 | [0260-single-number-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0416-partition-equal-subset-sum) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
+| [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
 | [0450-delete-node-in-a-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0450-delete-node-in-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0700-search-in-a-binary-search-tree) |
