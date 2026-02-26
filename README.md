@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0070-climbing-stairs) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0125-valid-palindrome) |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0078-subsets) |
 | [0257-binary-tree-paths](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0257-binary-tree-paths) |
 | [0797-all-paths-from-source-to-target](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0797-all-paths-from-source-to-target) |
