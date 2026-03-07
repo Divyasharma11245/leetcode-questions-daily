@@ -21,15 +21,34 @@ class Solution {
     }
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int buy = 1;
-        int count = 2;
-        int idx = 0;
-        int dp[][][] = new int[n][2][3];
-        for(int i = 0; i<dp.length; i++){
-            for(int j = 0; j<dp[0].length; j++){
-                Arrays.fill(dp[i][j], -1);
+        int dp[][][] = new int[n+1][2][3];
+        //cap=0
+        for(int idx = 0; idx<dp.length; idx++){
+            for(int buy = 0; buy<dp[0].length; buy++){
+                dp[idx][buy][0] = 0;
             }
         }
-        return profit(idx, buy, prices, n, count, dp);
+        //idx=n
+        for(int buy = 0; buy<dp[0].length; buy++){
+            for(int cap =0; cap<3; cap++){
+                dp[n][buy][cap] = 0;
+            }
+        }
+
+        for(int i = n-1; i>=0; i--){
+            for(int j = 0; j<2; j++){
+                for(int cap = 1; cap<3; cap++){
+                    int profit = 0;
+                    if(j==1){
+                        dp[i][j][cap] = Math.max(-prices[i]+dp[i+1][0][cap],
+                        0+dp[i+1][1][cap]);
+                    }else{
+                        dp[i][j][cap]  = Math.max(prices[i]+dp[i+1][1][cap-1],
+                        0+dp[i+1][0][cap]);
+                    }
+                }
+            }
+        }
+        return dp[0][1][2];
     }
 }
