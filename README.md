@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0027-remove-element) |
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0016-3sum-closest) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0027-remove-element) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0016-3sum-closest) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
