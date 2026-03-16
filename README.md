@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1137-n-th-tribonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1137-n-th-tribonacci-number) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1925-count-square-sum-triples](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1925-count-square-sum-triples) |
+| [2520-count-the-digits-that-divide-a-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2520-count-the-digits-that-divide-a-number) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3433-count-mentions-per-user) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
