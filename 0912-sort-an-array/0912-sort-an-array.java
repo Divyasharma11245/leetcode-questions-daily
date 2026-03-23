@@ -1,44 +1,39 @@
 class Solution {
-    private void mergeSort(int[] nums, int si, int ei){
-        if(si>=ei){
-            return;
+    private void heapify(int nums[], int i, int size){
+        int left = 2*i+1;
+        int right = 2*i+2;
+        int maxIdx = i;
+        if(left<size&&nums[left]>nums[maxIdx]){
+            maxIdx = left;
         }
-         int mid = si+(ei-si)/2;
-        mergeSort(nums, si, mid);
-        mergeSort(nums, mid+1, ei);
-        merge(nums, si, mid, ei); 
+        if(right<size&&nums[right]>nums[maxIdx]){
+            maxIdx = right;
+        }
+
+        if(maxIdx!=i){
+            int temp = nums[i];
+            nums[i] = nums[maxIdx];
+            nums[maxIdx] = temp;
+
+            heapify(nums, maxIdx, size);
+        }
     }
-    private void merge(int nums[], int si, int mid, int ei){
-        int temp[] = new int[ei-si+1];
-        int i = si;
-        int j = mid+1;
-        int k = 0;
-        while(i<=mid&&j<=ei){
-            if(nums[i]<nums[j]){
-                temp[k] = nums[i];
-                i++;
-                k++;
-            }else{
-                temp[k] = nums[j];
-                j++;
-                k++;
-            }
+    private void heapSort(int nums[]){
+        int n = nums.length;
+        for(int i = n/2; i>=0; i--){
+            heapify(nums, i, n);
         }
-        while(i<=mid){
-            temp[k++] = nums[i++];
-        }
-        while(j<=ei){
-            temp[k++] = nums[j++];
-        }
-        for(k=0, i=si; k<temp.length; k++, i++){
-            nums[i] = temp[k];
+
+        for(int i = n-1; i>0; i--){
+            //swap
+            int temp = nums[i];
+            nums[i] = nums[0];
+            nums[0] = temp;
+            heapify(nums, 0, i);
         }
     }
     public int[] sortArray(int[] nums) {
-        int si  = 0;
-        int ei = nums.length - 1;
-        mergeSort(nums, si, ei);
+        heapSort(nums);
         return nums;
     }
-
 }
