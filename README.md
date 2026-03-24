@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0204-count-primes) |
 | [0260-single-number-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0283-move-zeroes) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0344-reverse-string) |
 | [0455-assign-cookies](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0455-assign-cookies) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0231-power-of-two) |
 | [0507-perfect-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0507-perfect-number) |
