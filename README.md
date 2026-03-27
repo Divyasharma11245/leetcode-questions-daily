@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0088-merge-sorted-array) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0027-remove-element) |
 | [0061-rotate-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0141-linked-list-cycle) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0016-3sum-closest) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
