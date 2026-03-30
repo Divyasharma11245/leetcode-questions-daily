@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0974-subarray-sums-divisible-by-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3623-count-number-of-trapezoids-i) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
 | [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 ## Recursion
 |  |
 | ------- |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 | [3433-count-mentions-per-user](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
