@@ -232,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
@@ -598,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0785-is-graph-bipartite) |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
