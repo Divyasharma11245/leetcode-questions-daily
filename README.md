@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
+| [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0004-median-of-two-sorted-arrays) |
+| [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -641,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
