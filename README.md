@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3583-count-special-triplets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Hash Table
 |  |
 | ------- |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Memoization
 |  |
 | ------- |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Binary Tree
 |  |
 | ------- |
@@ -350,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 | [3433-count-mentions-per-user](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3531-count-covered-buildings) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Binary Indexed Tree
 |  |
 | ------- |
