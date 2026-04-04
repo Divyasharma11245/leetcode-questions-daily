@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
+| [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0078-subsets) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
 | [0127-word-ladder](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0141-linked-list-cycle) |
@@ -649,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
