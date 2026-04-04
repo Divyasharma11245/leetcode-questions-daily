@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
@@ -431,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2075-decode-the-slanted-ciphertext](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
 | [2751-robot-collisions](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2751-robot-collisions) |
 | [3433-count-mentions-per-user](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3433-count-mentions-per-user) |
