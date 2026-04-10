@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3625-count-number-of-trapezoids-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3583-count-special-triplets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 ## Two Pointers
 |  |
 | ------- |
