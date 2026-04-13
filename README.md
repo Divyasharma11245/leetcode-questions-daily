@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0860-lemonade-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0860-lemonade-change) |
 | [0874-walking-robot-simulation](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0874-walking-robot-simulation) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
