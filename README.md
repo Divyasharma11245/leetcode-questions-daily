@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2751-robot-collisions](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2751-robot-collisions) |
 | [2965-find-missing-and-repeated-values](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2965-find-missing-and-repeated-values) |
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3474-lexicographically-smallest-generated-string) |
