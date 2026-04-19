@@ -1,22 +1,14 @@
 class Solution {
-    private void helper(int [][]image, int sr, int sc, int color, boolean vis[][], int orgCol){
-if(sr<0||sc<0||sr>=image.length||sc>=image[0].length||vis[sr][sc]||image[sr][sc]!=orgCol){
-    return;
-}
-        vis[sr][sc] = true;
-        image[sr][sc] = color; 
-        //left
-        helper(image, sr, sc-1, color, vis, orgCol);
-        //right
-helper(image, sr, sc+1, color, vis, orgCol);
-        //up
-helper(image, sr-1, sc, color, vis, orgCol);
-        //down
-        helper(image, sr+1, sc, color, vis, orgCol);
+    private void dfs(int[][] image, int i, int j, int newColor, int currColor){
+        if(i<0||j<0||i>=image.length||j>=image[0].length||image[i][j]==newColor||image[i][j]!=currColor) return;
+        image[i][j] = newColor;
+        dfs(image, i-1, j, newColor, currColor);
+        dfs(image, i, j+1, newColor, currColor);
+        dfs(image, i+1, j, newColor, currColor);
+        dfs(image, i, j-1, newColor, currColor);
     }
-     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        boolean vis[][] = new boolean[image.length][image[0].length];
-        helper(image, sr, sc, color, vis, image[sr][sc]);
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        dfs(image, sr, sc, color, image[sr][sc]);
         return image;
     }
 }
