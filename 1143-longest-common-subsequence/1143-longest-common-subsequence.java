@@ -1,24 +1,25 @@
 class Solution {
-    private int solve(String str1, String str2, int n, int m, int lcs, int dp[][]){
-        if(n==0||m==0) return 0;
-        if(str1==""||str2=="") return lcs;
-        if(dp[n-1][m-1]!=-1){
-            return dp[n-1][m-1];
-        }
-        if(str1.charAt(n-1)==str2.charAt(m-1)) return dp[n-1][m-1] = 1+solve(str1, str2, n-1, m-1, lcs, dp);
-        else{
-            int ans1 = solve(str1, str2, n-1, m, lcs, dp);
-            int ans2 = solve(str1, str2, n, m-1, lcs, dp);
-            return dp[n-1][m-1] = Math.max(ans1, ans2);
-        }
-    }
     public int longestCommonSubsequence(String text1, String text2) {
         int n = text1.length();
         int m = text2.length();
-        int dp[][] = new int[n][m];
-        for(int i = 0; i<n; i++){
-            Arrays.fill(dp[i], -1);
+        int dp[][] = new int[n+1][m+1];
+        for(int i =0; i<=n; i++){
+            for(int j =0 ; j<=m; j++){
+                if(i==0||j==0){
+                    dp[i][j] = 0;
+                }
+            }
         }
-        return solve(text1, text2, n, m, 0, dp);
+
+        for(int i=1; i<=n; i++){
+            for(int j = 1; j<=m; j++){
+                if(text1.charAt(i-1)==text2.charAt(j-1)){
+                    dp[i][j] = dp[i-1][j-1]+1;
+                }else{
+                    dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
+                }
+            }
+        }
+        return dp[n][m];
     }
 }
