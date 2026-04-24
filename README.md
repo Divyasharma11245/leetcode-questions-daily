@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0983-minimum-cost-for-tickets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0983-minimum-cost-for-tickets) |
 | [1049-last-stone-weight-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1049-last-stone-weight-ii) |
+| [1092-shortest-common-supersequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1092-shortest-common-supersequence) |
 | [1137-n-th-tribonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [2742-painting-the-walls](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2742-painting-the-walls) |
@@ -276,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0657-robot-return-to-origin) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1061-lexicographically-smallest-equivalent-string) |
+| [1092-shortest-common-supersequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
