@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0072-edit-distance) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0102-binary-tree-level-order-traversal) |
@@ -328,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -349,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0102-binary-tree-level-order-traversal) |
@@ -416,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0079-word-search) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0257-binary-tree-paths](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0797-all-paths-from-source-to-target) |
