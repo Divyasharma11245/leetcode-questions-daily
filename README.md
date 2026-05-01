@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0231-power-of-two) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0241-different-ways-to-add-parentheses) |
 | [0507-perfect-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0509-fibonacci-number) |
 | [0973-k-closest-points-to-origin](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0973-k-closest-points-to-origin) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0322-coin-change) |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0070-climbing-stairs) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0241-different-ways-to-add-parentheses) |
 | [0509-fibonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1137-n-th-tribonacci-number) |
 ## String
@@ -269,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0127-word-ladder) |
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0257-binary-tree-paths) |
 | [0344-reverse-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0344-reverse-string) |
@@ -302,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0231-power-of-two) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0241-different-ways-to-add-parentheses) |
 | [0509-fibonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0509-fibonacci-number) |
 ## Tree
 |  |
