@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1584-min-cost-to-connect-all-points) |
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1092-shortest-common-supersequence) |
 | [1137-n-th-tribonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2742-painting-the-walls](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2742-painting-the-walls) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -397,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0973-k-closest-points-to-origin) |
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2751-robot-collisions](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2751-robot-collisions) |
