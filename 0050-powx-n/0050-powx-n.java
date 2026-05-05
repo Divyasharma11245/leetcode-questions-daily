@@ -1,18 +1,21 @@
 class Solution {
+    private double fastExp(double x, int n){
+        if(n==0){
+            return 1;
+        }
+        double half = fastExp(x, n/2);
+        if(n%2==0){
+            return half*half;
+        }else{
+            return half*half*x;
+        }
+    }
     public double myPow(double x, int n) {
-        long binForm = n;
-        if(n<0){
-            x=1/x;
-            binForm=-binForm;
+        int N = n;
+        if(N<0){
+            x = 1/x;
+            N = -N;
         }
-        double ans = 1;
-        while(binForm>0){
-            if(binForm%2==1){
-                ans*=x;
-            }
-            x*=x;
-            binForm = binForm/2;
-        }
-        return ans;
+        return fastExp(x, N);
     }
 }
