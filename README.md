@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0027-remove-element) |
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0072-edit-distance) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
