@@ -2,24 +2,29 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
         List<List<Integer>> list = new ArrayList<>();
-        Set<List<Integer>> unique = new HashSet<>();
-        for(int i =0; i<n; i++){
-            int target = -nums[i];
-            Set<Integer> s = new HashSet<>();
-            for(int j = i+1; j<n; j++){
-                int third = target-nums[j];
-                if(s.contains(third)){
-                    List<Integer> inner = new ArrayList<>();
-                    inner.add(nums[i]);
-                    inner.add(nums[j]);
-                    inner.add(third);
-                    Collections.sort(inner);
-                    if(unique.add(inner)){  
-                        list.add(inner);
-                    }
-                }
-                s.add(nums[j]);
+        Arrays.sort(nums);
+        for(int i = 0; i<n; i++){
+            if(i>0 &&nums[i]==nums[i-1]) continue;
+            int low = i+1;
+            int high = n-1;
+            while(low<high){
+            int sum = nums[i]+nums[low]+nums[high];
+            if(sum>0){
+                high--;
+            }else if(sum<0){
+                low++;
+            }else{
+                List<Integer> inner = new ArrayList<>();
+                inner.add(nums[i]);
+                inner.add(nums[low]);
+                inner.add(nums[high]);
+                list.add(inner);
+                low++;
+                high--;
+                while(low<high&&nums[low]==nums[low-1]) low++;
             }
+            }
+            
         }
         return list;
     }
