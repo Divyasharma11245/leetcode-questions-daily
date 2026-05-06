@@ -1,39 +1,26 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> triplet = new ArrayList<>();
-
         int n = nums.length;
-
-        Arrays.sort(nums);
-
-        for(int i = 0; i<n; i++){
-            if(i > 0 && nums[i] == nums[i-1]) continue; 
-            int left = i+1;
-            int right = n-1;
-            int sum = 0;
-
-            
-            while(left<right){
-                sum = nums[i]+nums[left]+nums[right];
-                if(sum==0){
-
+        List<List<Integer>> list = new ArrayList<>();
+        Set<List<Integer>> unique = new HashSet<>();
+        for(int i =0; i<n; i++){
+            int target = -nums[i];
+            Set<Integer> s = new HashSet<>();
+            for(int j = i+1; j<n; j++){
+                int third = target-nums[j];
+                if(s.contains(third)){
                     List<Integer> inner = new ArrayList<>();
                     inner.add(nums[i]);
-                    inner.add(nums[left]);
-                    inner.add(nums[right]);
-                    triplet.add(inner);
-                    while(left < right && nums[left] == nums[left+1]) left++;
-                    while(left < right && nums[right] == nums[right-1]) right--;
-                    left++;
-                    right--;
-                }else if(sum<0){
-                    left++;
-                }else{
-                    right--;
-                }    
+                    inner.add(nums[j]);
+                    inner.add(third);
+                    Collections.sort(inner);
+                    if(unique.add(inner)){  
+                        list.add(inner);
+                    }
+                }
+                s.add(nums[j]);
             }
-            
         }
-        return triplet;
+        return list;
     }
 }
