@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0204-count-primes) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
 | [0450-delete-node-in-a-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0493-reverse-pairs) |
@@ -552,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0912-sort-an-array) |
@@ -726,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0079-word-search) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
