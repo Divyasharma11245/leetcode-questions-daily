@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0027-remove-element) |
+| [0031-next-permutation](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0031-next-permutation) |
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0027-remove-element) |
+| [0031-next-permutation](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0088-merge-sorted-array) |
