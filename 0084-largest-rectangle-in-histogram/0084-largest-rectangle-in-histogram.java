@@ -1,49 +1,30 @@
-
-import java.util.*;
 class Solution {
     public int largestRectangleArea(int[] heights) {
-        int maxArea = 0;
-        int nsr[] = new int[heights.length];
-        int nsl[] = new int[heights.length];
-        // next smaller right
+        int n = heights.length;
+        int left[] = new int[n];
+        int right[] = new int[n];
         Stack<Integer> s = new Stack<>();
-
-        for (int i = heights.length - 1; i >= 0; i--) {
-            while (!s.isEmpty() && heights[s.peek()] >= heights[i]) {
+        for(int i = n-1; i>=0; i--){
+            while(!s.isEmpty()&&heights[s.peek()]>=heights[i]){
                 s.pop();
             }
-            if (s.isEmpty()) {
-                nsr[i] = heights.length;
-            } else {
-                nsr[i] = s.peek();
+            right[i]=s.isEmpty()?n:s.peek();
+            s.push(i);
+        }
+        s=new Stack<>();
+        for(int i =0; i<n; i++){
+            while(!s.isEmpty()&&heights[s.peek()]>=heights[i]){
+                s.pop();
             }
+            left[i]=s.isEmpty()?-1:s.peek();
             s.push(i);
         }
 
-        // next smaller left
-        s = new Stack<>();
-
-        for (int i = 0; i < heights.length; i++) {
-            while (!s.isEmpty() && heights[s.peek()] >= heights[i]) {
-                s.pop();
-            }
-            if (s.isEmpty()) {
-                nsl[i] = -1;
-            } else {
-                nsl[i] = s.peek();
-            }
-            s.push(i);
+        int maxAns = Integer.MIN_VALUE;
+        for(int i = 0; i<n; i++){
+            int currArea = (right[i]-left[i]-1)*heights[i]; 
+            maxAns = Math.max(currArea, maxAns);
         }
-
-        // area
-        // currArea = height*width
-        // width = nsr[i] - nsl[i]-1; height = height[i]
-        for (int i = 0; i < heights.length; i++) {
-            int currH = heights[i];
-            int width = nsr[i] - nsl[i] - 1;
-            int currArea = currH * width;
-            maxArea = Math.max(maxArea, currArea);
-        }
-       return maxArea;
+        return maxAns;
     }
 }
