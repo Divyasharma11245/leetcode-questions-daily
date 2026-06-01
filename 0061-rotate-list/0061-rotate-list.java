@@ -9,37 +9,30 @@
  * }
  */
 class Solution {
-    public ListNode rotateRight(ListNode head, int k) {
-        int size = 0;
-
-        if(head==null||head.next == null){
-            return head;
-        }
-
-        ListNode temp = head;
+    private ListNode findLastNode(ListNode temp, int len){
+        int count  = 1;
         while(temp!=null){
-            size++;
+            if(count==len) return temp;
+            count++;
             temp = temp.next;
         }
-
-        k = k % size;
-        if (k == 0) return head;
-
-        temp = head;
-        while(temp.next!=null ){
-            temp = temp.next;
-        }
-
-        temp.next = head;
+        return temp;
+    }
+    public ListNode rotateRight(ListNode head, int k) {
+        if(head==null||k==0) return head;
         ListNode tail = head;
-        int j = 0;
-        while( j<(size-k-1)){
-            tail=tail.next;
-            j++;
+        int len = 1;
+        while(tail.next!=null){
+            tail = tail.next;
+            len++;
         }
-
-        head = tail.next;
-        tail.next = null;
+        if(k%len==0) return head;
+        k = k%len;
+        tail.next = head;
+        ListNode newLastNode = findLastNode(head, len-k);
+        head = newLastNode.next;
+        newLastNode.next = null;
         return head;
     }
+
 }
