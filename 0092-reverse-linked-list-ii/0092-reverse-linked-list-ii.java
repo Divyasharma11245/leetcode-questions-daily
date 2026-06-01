@@ -40,5 +40,5 @@ class Solution {
     start.next = curr;
 
     return dummy.next;
-}
+    }
 }
