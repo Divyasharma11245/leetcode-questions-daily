@@ -10,9 +10,7 @@ class MyQueue {
         while(!s1.isEmpty()){
             s2.push(s1.pop());
         }
-
         s1.push(x);
-
         while(!s2.isEmpty()){
             s1.push(s2.pop());
         }
@@ -23,11 +21,12 @@ class MyQueue {
     }
     
     public int peek() {
-        return s1.peek();    }
+        return s1.peek();
+    }
     
     public boolean empty() {
-        return s1.isEmpty();  
-           }
+        return s1.isEmpty();
+    }
 }
 
 /**
