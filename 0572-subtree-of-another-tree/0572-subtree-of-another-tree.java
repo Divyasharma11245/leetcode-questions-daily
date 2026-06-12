@@ -14,33 +14,13 @@
  * }
  */
 class Solution {
-     private  boolean isIdentical(TreeNode node, TreeNode subRoot){
-        if(node==null&&subRoot==null){
-            return true;
-        }else if(node==null||subRoot==null||node.val!=subRoot.val){
-            return false;
-        }
-        
-        if(!isIdentical(node.left, subRoot.left)){
-            return false;
-        }
-        
-        if(!isIdentical(node.right, subRoot.right)){
-            return false;
-        }
-        
-        return true;
+    private boolean isIdentical(TreeNode p, TreeNode q){
+        if(p==null||q==null) return p==q;
+        return p.val==q.val&&isIdentical(p.left, q.left)&&isIdentical(p.right, q.right);
     }
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-         if(root==null){
-            return false;
-        }
-        if(root.val==subRoot.val){
-            if(isIdentical(root, subRoot)){
-                return true;
-            }
-        }
-        
-        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
+        if(root==null||subRoot==null) return root==subRoot;
+        if((root.val==subRoot.val)&&isIdentical(root, subRoot)) return true;
+        return isSubtree(root.left, subRoot)||isSubtree(root.right, subRoot);
     }
-    }
+}
