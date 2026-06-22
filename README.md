@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0377-combination-sum-iv) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0540-single-element-in-a-sorted-array) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -661,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
@@ -859,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
