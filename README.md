@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0560-subarray-sum-equals-k) |
 | [0622-design-circular-queue](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0622-design-circular-queue) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0560-subarray-sum-equals-k) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0874-walking-robot-simulation](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0874-walking-robot-simulation) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0930-binary-subarrays-with-sum) |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0455-assign-cookies) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0860-lemonade-change) |
@@ -474,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0455-assign-cookies) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
 | [0912-sort-an-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0912-sort-an-array) |
@@ -543,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0930-binary-subarrays-with-sum) |
@@ -657,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
