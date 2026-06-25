@@ -1,29 +1,32 @@
-class Solution {
-    private boolean cycleDFS(int src, boolean vis[], boolean recPath[], int[][] prerequisites){
-        vis[src] = true;
-        recPath[src] = true;
-
-        for(int i = 0; i<prerequisites.length; i++){
-            int u = prerequisites[i][0];
-            int v = prerequisites[i][1];
-
-            if(u==src){
-                if(!vis[v]){
-                    if(cycleDFS(v, vis, recPath, prerequisites)) return true;
-                }else if(recPath[v])  return true;
-            }
+class Solution{
+    private boolean dfs(ArrayList<ArrayList<Integer>> adj, int curr, boolean[] vis, boolean[] st){
+        vis[curr] = true;
+        st[curr] = true;
+        for(int neigh: adj.get(curr)){
+            if(!vis[neigh]){
+                 if(dfs(adj, neigh, vis, st)) return true;
+            }else if(st[neigh]) return true;
         }
-        recPath[src] = false;
+        st[curr] = false;
         return false;
     }
+    public boolean canFinish(int n, int[][] edges) {
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        for(int i = 0; i<n; i++){
+            adj.add(new ArrayList<>());
+        }
 
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        boolean vis[] = new boolean[numCourses];
-        boolean recPath[] = new boolean[numCourses];
+        for(int edge[]: edges){
+            int u = edge[0];
+            int v = edge[1];
+            adj.get(u).add(v);
+        }
 
-        for(int i = 0; i<numCourses; i++){
+        boolean vis[] = new boolean[n];
+        boolean st[] = new boolean[n];
+        for(int i = 0; i<n; i++){
             if(!vis[i]){
-                if(cycleDFS(i, vis, recPath, prerequisites))  return false;
+                if(dfs(adj, i, vis, st)) return false;
             }
         }
         return true;
