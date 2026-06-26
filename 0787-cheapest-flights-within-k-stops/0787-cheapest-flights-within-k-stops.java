@@ -1,69 +1,61 @@
 class Solution {
     class Edge{
-        int src;
-        int dest;
+        int u;
+        int v; 
         int wt;
-        public Edge(int src, int dest, int wt){
-            this.src=src;
-            this.dest = dest;
+        Edge(int u, int v, int wt){
+            this.u = u;
+            this.v = v;
             this.wt = wt;
         }
     }
+
     class Info{
-        int v;
-        int cost;
-        int stops;
-        public Info(int v, int cost, int stops){
-            this.v = v;
-            this.cost = cost;
-            this.stops = stops;
-        }
+            int src;
+            int cost;
+            int stops;
+            Info(int src, int c, int st){
+                this.src = src;
+                this.cost = c;
+                this.stops = st;
+            }
     }
-    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        ArrayList<Edge> graph[] = new ArrayList[n];
+
+    private void createGraph(int[][] flights, ArrayList<Edge> graph[]){
         for(int i = 0; i<graph.length; i++){
             graph[i] = new ArrayList<>();
         }
 
-        for(int i =0; i<flights.length; i++){
-            int sorc = flights[i][0];
-            int dest = flights[i][1];
-            int cost = flights[i][2];
+        for(int i = 0; i<flights.length; i++){
+            int u = flights[i][0];
+            int v = flights[i][1];
+            int wt = flights[i][2];
 
-            graph[sorc].add(new Edge(sorc, dest, cost));
+            Edge e = new Edge(u, v, wt);
+            graph[u].add(e);
         }
+    }
 
-        int dist[] = new int[n];
-        for(int i = 0; i<dist.length; i++){
-            if(src!=i){
-                dist[i]=Integer.MAX_VALUE;
-            }
-        }
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        ArrayList<Edge> graph[] = new ArrayList[n];
+        createGraph(flights, graph);
 
+        int dist[] = new int[graph.length];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[src] = 0;
         Queue<Info> q = new LinkedList<>();
         q.add(new Info(src, 0, 0));
-
         while(!q.isEmpty()){
-            Info curr = q.poll();
-            if(curr.stops>k){
-                continue;
-            }
-            for(int i = 0; i<graph[curr.v].size(); i++){
-                Edge e = graph[curr.v].get(i);
-                int u = e.src;
-                int v = e.dest;
-                int wt = e.wt;
-                if(curr.cost+wt<dist[v]&&curr.stops<=k){
-                    dist[v] = curr.cost+wt;
-                    q.add(new Info(v, dist[v], curr.stops+1));
+            Info curr = q.remove();
+            if(curr.stops>k) break;
+            for(int i = 0; i<graph[curr.src].size(); i++){
+                Edge neigh = graph[curr.src].get(i);
+                if(curr.cost+neigh.wt<dist[neigh.v]){
+                    dist[neigh.v] = curr.cost+neigh.wt;
+                    q.add(new Info(neigh.v, dist[neigh.v], curr.stops + 1));
                 }
-            } 
+            }
         }
-
-        if(dist[dst]==Integer.MAX_VALUE){
-            return -1;
-        }else{
-            return dist[dst];
-        }
+        return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
     }
 }
