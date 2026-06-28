@@ -1,41 +1,24 @@
 class Solution {
     public boolean isBipartite(int[][] graph) {
-        int V = graph.length;
-
-        ArrayList<Integer>[] adj = new ArrayList[V];
-
-        for (int i = 0; i < V; i++) {
-            adj[i] = new ArrayList<>();
-            for (int neigh : graph[i]) {
-                adj[i].add(neigh);
-            }
-        }
-
-        int color[] = new int[V];
-        for(int i = 0; i<color.length; i++){
-            color[i] = -1;
-        }
         Queue<Integer> q = new LinkedList<>();
-
-        for(int i = 0; i<adj.length; i++){
-            if(color[i]==-1){
-                color[i] = 0;
-                q.add(i);
+        int col[] = new int[graph.length];
+        Arrays.fill(col, -1);
+        for(int i = 0; i<graph.length; i++){
+            if(col[i]==-1){
+            q.add(i);
+            col[i] = 0;
             }
 
             while(!q.isEmpty()){
                 int curr = q.remove();
-                for(int j = 0; j<adj[curr].size(); j++){
-                    int neigh = adj[curr].get(j);
-                    if(color[neigh]==-1){
-                        int nextCol = color[curr]==0?1:0;
-                        color[neigh] = nextCol;
+                for(int j = 0; j<graph[curr].length; j++){
+                    int neigh = graph[curr][j]; 
+                    if(col[neigh]==-1){
+                        col[neigh] = col[curr]==0?1:0;
                         q.add(neigh);
-                    }else if(color[neigh]==color[curr]){
-                        return false;
-                    }
+                    }else if(col[neigh]==col[curr]) return false;
                 }
-            }   
+            }
         }
         return true;
     }
