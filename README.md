@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0560-subarray-sum-equals-k) |
 | [0622-design-circular-queue](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0622-design-circular-queue) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0583-delete-operation-for-two-strings) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0646-maximum-length-of-pair-chain) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -796,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0684-redundant-connection) |
@@ -880,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0542-01-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
