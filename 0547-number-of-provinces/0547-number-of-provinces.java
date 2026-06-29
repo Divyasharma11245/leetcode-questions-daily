@@ -1,38 +1,38 @@
 class Solution {
+    private void dfs(ArrayList<ArrayList<Integer>> adj, int curr, boolean[] vis) {
+        vis[curr] = true;
 
-    int find(int x, int[] par) {
-        if (par[x] != x) {
-            par[x] = find(par[x], par);
+        for (int neigh : adj.get(curr)) {
+            if (!vis[neigh]) {
+                dfs(adj, neigh, vis);
+            }
         }
-        return par[x];
     }
-
     public int findCircleNum(int[][] isConnected) {
-
-        int n = isConnected.length;
-        int[] par = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            par[i] = i;
+        int V = isConnected.length;
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        for(int i = 0; i<V; i++){
+            adj.add(new ArrayList<>());
         }
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (isConnected[i][j] == 1) {
-                    int p1 = find(i, par);
-                    int p2 = find(j, par);
-                    if (p1 != p2) {
-                        par[p1] = p2;
-                    }
+        for (int i = 0; i < V; i++) {
+            for (int j = 0; j < V; j++) {
+                if (i != j && isConnected[i][j] == 1) {
+                    adj.get(i).add(j);
                 }
             }
         }
 
-        HashSet<Integer> set = new HashSet<>();
-        for (int i = 0; i < n; i++) {
-            set.add(find(i, par));
+        boolean[] vis = new boolean[V];
+        int count = 0;
+
+        for (int i = 0; i < V; i++) {
+            if (!vis[i]) {
+                dfs(adj, i, vis);
+                count++;
+            }
         }
 
-        return set.size();
+        return count;
     }
 }
