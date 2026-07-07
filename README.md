@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1584-min-cost-to-connect-all-points) |
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1137-n-th-tribonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2742-painting-the-walls](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2742-painting-the-walls) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -433,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Binary Tree
