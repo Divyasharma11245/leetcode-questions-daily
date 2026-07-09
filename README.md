@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2073-time-needed-to-buy-tickets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2073-time-needed-to-buy-tickets) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2527-find-xor-beauty-of-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2527-find-xor-beauty-of-array) |
 | [2742-painting-the-walls](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2742-painting-the-walls) |
 | [2751-robot-collisions](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2751-robot-collisions) |
 | [2965-find-missing-and-repeated-values](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2965-find-missing-and-repeated-values) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1925-count-square-sum-triples](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1925-count-square-sum-triples) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2520-count-the-digits-that-divide-a-number) |
+| [2527-find-xor-beauty-of-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2527-find-xor-beauty-of-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2965-find-missing-and-repeated-values) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3433-count-mentions-per-user) |
@@ -536,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0287-find-the-duplicate-number) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2220-minimum-bit-flips-to-convert-number) |
+| [2527-find-xor-beauty-of-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2527-find-xor-beauty-of-array) |
 ## Backtracking
 |  |
 | ------- |
