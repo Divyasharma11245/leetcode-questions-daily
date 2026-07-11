@@ -1,29 +1,24 @@
 class Solution {
-    private boolean isAlpha(char ch){
-        if((ch>='0'&&ch<='9')||(Character.toLowerCase(ch)>='a'&&Character.toLowerCase(ch)<='z')){
-            return true;
-        }
+    private boolean isAlphaNum(char ch){
+        if(ch>='a'&&ch<='z'||ch>='0'&&ch<='9'||ch>='A'&&ch<='Z') return true;
         return false;
     }
     public boolean isPalindrome(String s) {
         int n = s.length();
-        int start = 0;
+        int st = 0;
         int end = n-1;
-        while(start<end){
-            if(!isAlpha(s.charAt(start))){
-                start++;
-                continue;
+        while(st<end){
+            if(!isAlphaNum(s.charAt(st))){
+                 st++;
+                 continue;
             }
-            if(!isAlpha(s.charAt(end))){
-                end--;
-                continue;
+            if(!isAlphaNum(s.charAt(end))){
+                 end--;
+                 continue;
             }
-            if(Character.toLowerCase(s.charAt(start)) !=Character.toLowerCase(s.charAt(end))){
-                return false;
-            }
-            start++;
+            if(Character.toLowerCase(s.charAt(st))!=Character.toLowerCase(s.charAt(end))) return false;
+            st++;
             end--;
-
         }
         return true;
     }
