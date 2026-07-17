@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1590-make-sum-divisible-by-p](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1590-make-sum-divisible-by-p) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1710-maximum-units-on-a-truck) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
