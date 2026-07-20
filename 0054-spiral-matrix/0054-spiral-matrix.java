@@ -1,34 +1,33 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        int sr = 0;
-        int sc = 0;
-        int ec = matrix[0].length-1;
-        int er = matrix.length-1;
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int sRow = 0;
+        int eRow = m-1;
+        int sCol = 0;
+        int eCol = n-1;
         ArrayList<Integer> list = new ArrayList<>();
-        while(sr<=er&&sc<=ec){
-            for(int j = sc; j<=ec; j++){
-                list.add(matrix[sr][j]);
+        while(sRow<=eRow&&sCol<=eCol){
+            for(int i = sCol; i<=eCol; i++){
+                list.add(matrix[sRow][i]);
             }
-            for(int j = sr+1; j<=er; j++){
-                list.add(matrix[j][ec]);
+            for(int j = sRow+1; j<=eRow; j++){
+                list.add(matrix[j][eCol]);
             }
-            for(int j = ec-1; j>=sc; j--){
-                if(sr==er){
-                    break;
-                }
-                list.add(matrix[er][j]);
+            for(int i = eCol-1; i>=sCol; i--){
+                if(sRow==eRow) break;
+                list.add(matrix[eRow][i]);
             }
-            for(int j = er-1; j>=sr+1; j--){
-                if(sc==ec){
-                    break;
-                }
-                list.add(matrix[j][sc]);
+            for(int j = eRow-1; j>sRow; j--){
+                if(sCol==eCol) break;
+                list.add(matrix[j][sCol]);
             }
-            sr++;
-            er--;
-            sc++;
-            ec--;
+        sRow++;
+        eRow--;
+        sCol++;
+        eCol--;
         }
         return list;
+
     }
 }
