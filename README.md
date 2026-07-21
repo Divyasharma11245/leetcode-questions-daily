@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0204-count-primes) |
+| [0229-majority-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0260-single-number-iii) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0208-implement-trie-prefix-tree) |
+| [0229-majority-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0387-first-unique-character-in-a-string) |
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
+| [0229-majority-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
@@ -677,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
