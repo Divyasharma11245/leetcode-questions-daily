@@ -1,59 +1,59 @@
 class Solution {
-    int count = 0;
-    private void countPairs(int[] nums, int si, int mid, int ei){
-        int right = mid+1;
-        for(int i =si; i<=mid; i++){
-            while(right<=ei&&nums[i]>2L*nums[right]) right++;
-            count += (right-(mid+1));
-        }
-    }
-    private void mergeSort(int[] nums, int si, int ei){
-        if(si>=ei){
-            return;
-        }
-         int mid = si+(ei-si)/2;
-        mergeSort(nums, si, mid);
-        mergeSort(nums, mid+1, ei);
-        countPairs(nums, si, mid, ei);
-        merge(nums, si, mid, ei); 
-    }
-    private void merge(int nums[], int si, int mid, int ei){
-        int temp[] = new int[ei-si+1];
-        int i = si;
+    private void merge(int st, int mid, int end, int[] nums){
+        int temp[] = new int[end-st+1];
+        int i = st;
         int j = mid+1;
-        int k = 0;
-        while(i<=mid&&j<=ei){
-            if(nums[i]<nums[j]){
-                temp[k] = nums[i];
+        int idx  = 0;
+        while(i<=mid&&j<=end){
+            if(nums[i]<=nums[j]){
+                temp[idx] = nums[i];
+                idx++;
                 i++;
-                k++;
             }else{
-                temp[k] = nums[j];
+                temp[idx] = nums[j];
+                idx++;
                 j++;
-                k++;
             }
         }
         while(i<=mid){
-            temp[k++] = nums[i++];
+            temp[idx] = nums[i];
+            idx++;
+            i++;
         }
-        while(j<=ei){
-            temp[k++] = nums[j++];
+        while(j<=end){
+            temp[idx] = nums[j];
+            idx++;
+            j++;
         }
-        for(k=0, i=si; k<temp.length; k++, i++){
-            nums[i] = temp[k];
-        }
+        for(int k = st; k <= end; k++){
+        nums[k] = temp[k - st];
     }
-    // public int[] sortArray(int[] nums) {
-    //     int si  = 0;
-    //     int ei = nums.length - 1;
-    //     mergeSort(nums, si, ei);
-    //     return nums;
-    // }
-
-
-    public int reversePairs(int[] nums) {
-        count = 0;
-        mergeSort(nums, 0, nums.length - 1);
+    }
+    private int countPairs(int st, int mid, int end, int[] nums){
+        int right = mid+1;
+        int count = 0;
+        for(int  i=st; i<=mid; i++){
+            while(right<=end&&nums[i]>2L*nums[right]){
+                right++;
+            }
+            count+=right-(mid+1);
+        }
         return count;
+    }
+    private int mergeSort(int st, int end, int nums[]){
+        int count =0;
+        if(st<end){
+            int mid = st+(end-st)/2;
+
+            count+=mergeSort(st, mid, nums);
+            count+=mergeSort(mid+1, end, nums);
+            count+=countPairs(st, mid, end, nums);
+            merge(st, mid, end, nums);
+            return count;
+        }
+        return 0;
+    }
+    public int reversePairs(int[] nums) {
+        return mergeSort(0, nums.length-1, nums);
     }
 }
