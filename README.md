@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0860-lemonade-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0860-lemonade-change) |
 | [0874-walking-robot-simulation](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0874-walking-robot-simulation) |
+| [0875-koko-eating-bananas](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0904-fruit-into-baskets) |
 | [0912-sort-an-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0912-sort-an-array) |
 | [0930-binary-subarrays-with-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0930-binary-subarrays-with-sum) |
@@ -459,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0704-binary-search) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0875-koko-eating-bananas](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0875-koko-eating-bananas) |
 | [0887-super-egg-drop](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0887-super-egg-drop) |
 | [0938-range-sum-of-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0938-range-sum-of-bst) |
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
