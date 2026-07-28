@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1049-last-stone-weight-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1049-last-stone-weight-ii) |
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1547-minimum-cost-to-cut-a-stick) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1382-balance-a-binary-search-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1382-balance-a-binary-search-tree) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
