@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0377-combination-sum-iv) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0134-gas-station) |
 | [0179-largest-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0179-largest-number) |
+| [0410-split-array-largest-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0455-assign-cookies) |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0377-combination-sum-iv) |
+| [0410-split-array-largest-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0494-target-sum) |
@@ -454,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0410-split-array-largest-sum) |
 | [0450-delete-node-in-a-bst](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0540-single-element-in-a-sorted-array) |
@@ -628,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0238-product-of-array-except-self) |
+| [0410-split-array-largest-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0560-subarray-sum-equals-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0974-subarray-sums-divisible-by-k) |
