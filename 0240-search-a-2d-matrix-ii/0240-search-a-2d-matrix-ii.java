@@ -5,13 +5,9 @@ class Solution {
         int r = 0;
         int c = n-1;
         while(r<m&&c>=0){
-            if(target==matrix[r][c]){
-                return true;
-            }else if(target<matrix[r][c]){
-                c--;
-            }else{
-                r++;
-            }
+            if(matrix[r][c]==target) return true;
+            else if(matrix[r][c]>target) c--;
+            else r++;
         }
         return false;
     }
