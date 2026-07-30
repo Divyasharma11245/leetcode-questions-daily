@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1848-minimum-distance-to-the-target-element) |
+| [1901-find-a-peak-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1901-find-a-peak-element-ii) |
 | [1946-largest-number-after-mutating-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1946-largest-number-after-mutating-substring) |
 | [2073-time-needed-to-buy-tickets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2073-time-needed-to-buy-tickets) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-kth-missing-positive-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1539-kth-missing-positive-number) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1901-find-a-peak-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1901-find-a-peak-element-ii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Binary Tree
@@ -958,6 +960,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
+| [1901-find-a-peak-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1901-find-a-peak-element-ii) |
 | [2965-find-missing-and-repeated-values](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2965-find-missing-and-repeated-values) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 ## Minimum Spanning Tree
