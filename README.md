@@ -366,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0583-delete-operation-for-two-strings) |
 | [0657-robot-return-to-origin](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0657-robot-return-to-origin) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1021-remove-outermost-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1021-remove-outermost-parentheses) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [1092-shortest-common-supersequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
@@ -613,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1019-next-greater-node-in-linked-list) |
+| [1021-remove-outermost-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1021-remove-outermost-parentheses) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2211-count-collisions-on-a-road](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2211-count-collisions-on-a-road) |
 | [2751-robot-collisions](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2751-robot-collisions) |
