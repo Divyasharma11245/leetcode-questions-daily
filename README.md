@@ -1032,4 +1032,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
