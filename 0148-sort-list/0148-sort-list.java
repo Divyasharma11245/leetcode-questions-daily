@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-      private ListNode getMid(ListNode head){
+    private ListNode findMiddle(ListNode head){
         ListNode slow = head;
         ListNode fast = head.next;
         while(fast!=null&&fast.next!=null){
@@ -18,50 +18,43 @@ class Solution {
         }
         return slow;
     }
-    
-    private ListNode merge(ListNode head1, ListNode head2){
-        ListNode mergedLL = new ListNode(-1);
-        ListNode temp = mergedLL;
-        while(head1!=null&&head2!=null){
-            if(head1.val<=head2.val){
-                temp.next = head1;
-                head1 = head1.next;
+
+    ListNode merge(ListNode head1, ListNode head2) {
+        ListNode dummy = new ListNode(-1);
+        ListNode temp = dummy;
+        ListNode t1 = head1;
+        ListNode t2 = head2;
+        while(t1!=null&&t2!=null){
+            if(t1.val<t2.val){
+                temp.next = t1;
+                t1 = t1.next;
                 temp = temp.next;
             }else{
-                temp.next = head2;
-                head2 = head2.next;
-                temp = temp.next;
+                temp.next = t2;
+                t2 = t2.next;
+                temp=temp.next;
             }
-            
         }
-            while(head1!=null){
-                temp.next = head1;
-                head1 = head1.next;
-                temp = temp.next;
-            }
-            while(head2!=null){
-                temp.next = head2;
-                head2 = head2.next;
-                temp = temp.next;
-            }
-        return mergedLL.next;
+        if(t1!=null){
+            temp.next = t1;
+        }
+        if(t2!=null){
+            temp.next = t2;
+        }
+        return dummy.next;
+        
     }
     public ListNode sortList(ListNode head) {
-         // base case
         if(head==null||head.next==null){
             return head;
         }
-        //find mid
-        ListNode mid = getMid(head);
-        ListNode rightHalf = mid.next;
-        mid.next = null;
-        //left half ke liye merge sort
-        ListNode leftHead = sortList(head);
-        //right half ke liye merge sort
-        ListNode rightHead = sortList(rightHalf);
-        //dono ko merge
-        ListNode merged = merge(leftHead, rightHead);
-        
-        return merged;
+
+    ListNode middle = findMiddle(head);
+    ListNode leftHead = head;
+    ListNode rightHead = middle.next;
+    middle.next = null;;
+    leftHead = sortList(leftHead);
+    rightHead = sortList(rightHead);
+    return merge(leftHead, rightHead);
     }
 }
