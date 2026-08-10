@@ -12,7 +12,7 @@ class Solution {
             else{
                 int temp = nums[i];
                 nums[i] = nums[j];
-                nums[j] = temp;
+                nums[j]=temp;
                 i++;
                 j++;
             }
