@@ -1,21 +1,16 @@
 class Solution {
-    private double fastExp(double x, int n){
-        if(n==0){
-            return 1;
-        }
-        double half = fastExp(x, n/2);
-        if(n%2==0){
-            return half*half;
-        }else{
-            return half*half*x;
-        }
+    private double power(double x, long exp, double ans){
+        if(exp==0) return ans;
+        if(exp%2!=0) ans*=x;
+        return power(x*x, exp/2, ans);
     }
     public double myPow(double x, int n) {
-        int N = n;
-        if(N<0){
+        long exp = n;
+        if(exp <0){
             x = 1/x;
-            N = -N;
+            exp=-exp;
         }
-        return fastExp(x, N);
+
+        return power(x, exp, 1);
     }
 }
