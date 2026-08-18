@@ -281,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1137-n-th-tribonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1137-n-th-tribonacci-number) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1903-largest-odd-number-in-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1903-largest-odd-number-in-string) |
+| [1922-count-good-numbers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1922-count-good-numbers) |
 | [1925-count-square-sum-triples](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1925-count-square-sum-triples) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2520-count-the-digits-that-divide-a-number) |
 | [2527-find-xor-beauty-of-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2527-find-xor-beauty-of-array) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0241-different-ways-to-add-parentheses) |
 | [0509-fibonacci-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0509-fibonacci-number) |
+| [1922-count-good-numbers](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1922-count-good-numbers) |
 ## Tree
 |  |
 | ------- |
