@@ -11,27 +11,30 @@ class Solution {
         if(count==0) return true;
         return false;
     }
-    private void solve(StringBuilder curr, int n){
+    private void solve(StringBuilder curr, int n, int open, int close){
         if(curr.length()==n*2){
             String str = curr.toString();
-            if(isValid(str)){
                 list.add(str);
-
-            }
             return;
         }
 
+        if(open<n){
         curr.append('(');
-        solve(curr, n);
+        solve(curr, n,open+1, close);
         curr.deleteCharAt(curr.length() - 1);
+        }
 
+        if(close<open){
         curr.append(')');
-        solve(curr, n);
+        solve(curr, n, open, close+1);
         curr.deleteCharAt(curr.length() - 1);
+        }
     }
     public List<String> generateParenthesis(int n) {
         StringBuilder str = new StringBuilder();
-        solve(str, n);
+        int open = 0;
+        int close = 0;
+        solve(str, n, open, close);
         return list;
     }
 }
