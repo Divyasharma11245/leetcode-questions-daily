@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0048-rotate-image) |
@@ -611,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0079-word-search) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0095-unique-binary-search-trees-ii) |
