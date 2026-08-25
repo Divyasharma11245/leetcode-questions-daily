@@ -1,21 +1,19 @@
 class Solution {
+    private boolean solve(String s, int idx, List<String> wordDict, Boolean dp[]){
+        if(idx>=s.length()){
+            return true;
+        }
+        if(dp[idx]!=null) return dp[idx];
+        if(wordDict.contains(s.substring(idx))) return true;
+        for(int i = idx; i<s.length(); i++){
+            String str = s.substring(idx, i+1);
+            if(wordDict.contains(str)&&solve(s, i+1, wordDict, dp)) return dp[idx] = true;
+        }
+        return dp[idx] = false;
+    }
     public boolean wordBreak(String s, List<String> wordDict) {
-        int n = s.length();
-        HashSet<String> words = new HashSet<>(wordDict);
-        int maxlength = 0;
-        for(String word:wordDict){
-            maxlength = Math.max(maxlength, word.length());
-        }
-        boolean dp[] = new boolean[n+1];
-        dp[0] = true;
-        for(int i = 1; i<=n; i++){
-            for(int j = i-1; j>=Math.max(0, i-maxlength); j--){
-                if(dp[j]&&words.contains(s.substring(j,i))){
-                    dp[i] = true;
-                    break;
-                }
-            }
-        }
-        return dp[n];
+        StringBuilder temp = new StringBuilder();
+        Boolean dp[] = new Boolean[s.length()+1];
+        return solve(s, 0, wordDict, dp);
     }
 }
