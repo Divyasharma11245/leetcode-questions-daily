@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0035-search-insert-position) |
+| [0037-sudoku-solver](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0042-trapping-rain-water) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -619,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0051-n-queens) |
@@ -992,6 +995,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
@@ -1073,9 +1077,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Algorithm X
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0051-n-queens) |
 ## Bidirectional Search
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0127-word-ladder) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
