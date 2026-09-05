@@ -1,20 +1,22 @@
 class Solution {
-    public int trap(int[] nums) {
-        int n = nums.length;
-        int prefix[] = new int[n];
-        prefix[0] = nums[0];
-        int suffix[] = new int[n];
-        suffix[n-1] = nums[n-1];
-        for(int i = 1; i<n; i++){
-            prefix[i] = Math.max(prefix[i-1], nums[i]);
-        }
-        for(int i = n-2; i>=0; i--){
-            suffix[i] = Math.max(suffix[i+1], nums[i]);
-        }
-
+    public int trap(int[] height) {
+        int n = height.length;
+        Stack<Integer> st = new Stack<>();
         int ans = 0;
-        for(int i = 0; i<n; i++){
-            ans+=Math.min(prefix[i], suffix[i])-nums[i];
+        for(int r = 0; r<n; r++){
+            while(!st.isEmpty()&&height[st.peek()]<height[r]){
+                int m = st.pop();
+
+                if(st.isEmpty()){
+                    break;
+                }
+
+                int l = st.peek();
+                int h = Math.min(height[l], height[r])-height[m];
+                int w = r-l-1;
+                ans+=h*w;
+            }
+            st.push(r);
         }
         return ans;
     }
