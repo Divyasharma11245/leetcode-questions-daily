@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0085-maximal-rectangle) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0118-pascals-triangle) |
@@ -642,6 +644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0144-binary-tree-preorder-traversal) |
@@ -890,6 +893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
@@ -1008,6 +1012,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
