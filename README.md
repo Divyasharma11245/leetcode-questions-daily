@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0204-count-primes) |
 | [0229-majority-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0283-move-zeroes) |
@@ -677,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0658-find-k-closest-elements) |
@@ -727,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0387-first-unique-character-in-a-string) |
 | [0622-design-circular-queue](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0622-design-circular-queue) |
 | [2073-time-needed-to-buy-tickets](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2073-time-needed-to-buy-tickets) |
@@ -734,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0239-sliding-window-maximum) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Linked List
 |  |
@@ -800,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0023-merge-k-sorted-lists) |
+| [0239-sliding-window-maximum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1122,4 +1127,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0084-largest-rectangle-in-histogram) |
+| [0239-sliding-window-maximum](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
