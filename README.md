@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0451-sort-characters-by-frequency) |
+| [0460-lfu-cache](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -771,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0328-odd-even-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+| [0460-lfu-cache](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0460-lfu-cache) |
 | [0622-design-circular-queue](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0622-design-circular-queue) |
 | [0876-middle-of-the-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0876-middle-of-the-linked-list) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1019-next-greater-node-in-linked-list) |
@@ -851,6 +853,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0460-lfu-cache](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0460-lfu-cache) |
 | [0622-design-circular-queue](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0901-online-stock-span) |
@@ -860,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0146-lru-cache) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+| [0460-lfu-cache](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0460-lfu-cache) |
 ## Depth-First Search
 |  |
 | ------- |
