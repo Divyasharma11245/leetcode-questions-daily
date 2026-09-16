@@ -1,32 +1,33 @@
 class MedianFinder {
-    PriorityQueue<Integer> left_max_heap = new PriorityQueue<>(Collections.reverseOrder());
-    PriorityQueue<Integer> right_min_heap = new PriorityQueue<>();
+    PriorityQueue<Integer> leftMax;
+    PriorityQueue<Integer> rightMin;
     public MedianFinder() {
-        
+        leftMax = new PriorityQueue<>(Collections.reverseOrder());
+        rightMin = new PriorityQueue<>();
     }
     
     public void addNum(int num) {
-       if(left_max_heap.isEmpty()||num<=left_max_heap.peek()){
-            left_max_heap.add(num);
-       }else{
-            right_min_heap.add(num);
-       }
+        if(leftMax.isEmpty()||(num<=leftMax.peek())){
+            leftMax.add(num);
+        }else{
+            rightMin.add(num);
+        }
 
-       if(left_max_heap.size()-right_min_heap.size()>1){
-        right_min_heap.add(left_max_heap.peek());
-        left_max_heap.poll();
-       }else if(left_max_heap.size()<right_min_heap.size()){
-        left_max_heap.add(right_min_heap.peek());
-        right_min_heap.poll();
-       }
+        if(leftMax.size()-rightMin.size()>1){
+            rightMin.add(leftMax.peek());
+            leftMax.remove();
+        }else if(leftMax.size()<rightMin.size()){
+            leftMax.add(rightMin.peek());
+            rightMin.remove();
+        }
     }
     
     public double findMedian() {
-        if(left_max_heap.size()==right_min_heap.size()){
-            double mean = (left_max_heap.peek()+right_min_heap.peek())/2.0;
-            return mean;
+        if(leftMax.size()==rightMin.size()){
+            double ans = (leftMax.peek()+rightMin.peek())/2.0;
+            return ans;
         }
-        return left_max_heap.peek();
+        return leftMax.peek();
     }
 }
 
