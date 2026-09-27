@@ -8,7 +8,7 @@ class Solution {
 
         for(int i = 1; i<n; i++){
             if(intervals[i][0]<=res[idx][1]){
-                res[idx][0] = Math.min(res[idx][0], intervals[i][0]);
+                // res[idx][0] = Math.min(res[idx][0], intervals[i][0]);
                 res[idx][1] = Math.max(res[idx][1], intervals[i][1]);
             }else{
                 idx++;
