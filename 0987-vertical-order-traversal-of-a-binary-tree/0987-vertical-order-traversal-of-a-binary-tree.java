@@ -15,6 +15,30 @@
  */
 class Solution {
     List<int[]> list;
+    class Pair{
+        TreeNode root;
+        int col;
+        int row;
+        Pair(TreeNode root, int col, int row){
+            this .root = root;
+            this.col = col;
+            this.row = row;
+        }
+    }
+
+    private void bfs(TreeNode root, int row, int col){
+        Queue<Pair> q = new LinkedList<>();
+        q.offer(new Pair(root, row, col));
+        while(!q.isEmpty()){
+            Pair curr = q.poll();
+            TreeNode currRoot = curr.root;
+            int currCol = curr.col;
+            int currRow = curr.row;
+            list.add(new int[]{currCol, currRow, currRoot.val});
+            if(currRoot.left!=null) q.offer(new Pair(currRoot.left, currCol-1, currRow+1));
+            if(currRoot.right!=null) q.offer(new Pair(currRoot.right, currCol+1, currRow+1));
+        }
+    }
     private void dfs(TreeNode root, int row, int col){
         if(root==null) return;
         list.add(new int[]{col, row, root.val});
@@ -23,7 +47,7 @@ class Solution {
     }
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         list = new ArrayList<>();
-        dfs(root, 0, 0);
+        bfs(root, 0, 0);
         Collections.sort(list, (a, b)->{
             if(a[0]!=b[0]) return a[0]-b[0];
             else if(a[1]!=b[1]) return a[1]-b[1];
