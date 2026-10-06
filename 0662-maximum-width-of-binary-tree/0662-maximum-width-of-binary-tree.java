@@ -15,32 +15,38 @@
  */
 class Solution {
     class Pair{
+        int idx;
         TreeNode node;
-        long idx;
-        Pair(TreeNode node, long idx){
-            this.node = node;
+        Pair(int idx, TreeNode node){
             this.idx = idx;
+            this.node = node;
+        }
+    }
+    int maxWidth;
+    private void bfs(TreeNode root){
+        if(root==null) return;
+        Queue<Pair> q = new LinkedList<>();
+        q.add(new Pair(0, root));
+        while(!q.isEmpty()){
+            int size = q.size();
+            int front = 0;
+            int back = 0;
+            for(int i = 0; i<size; i++){
+            Pair curr= q.poll();
+            int currIdx = curr.idx;
+            if(i==0) front = curr.idx;
+            if(i==size-1) back = curr.idx;
+            TreeNode currNode = curr.node;
+            if(currNode.left!=null) q.offer(new Pair(2*currIdx+1, currNode.left));
+            if(currNode.right!=null) q.offer(new Pair(2*currIdx+2, currNode.right)); 
+            }
+            maxWidth = Math.max(maxWidth, back-front+1);
         }
     }
     public int widthOfBinaryTree(TreeNode root) {
-        Queue<Pair> q = new LinkedList<>();
-        q.add(new Pair(root, 0));
-        int maxWidth = Integer.MIN_VALUE;
-        while(!q.isEmpty()){
-            int n = q.size();
-            long minIdx = q.peek().idx;
-            long first = 0, last = 0;
-            for (int i = 0; i < n; i++) {
-                Pair curr = q.poll();
-                long idx = curr.idx - minIdx;
-
-                if (i == 0) first = idx;
-                if (i == n - 1) last = idx;
-                if(curr.node.left!=null) q.add(new Pair(curr.node.left, 2*idx+1));
-                if(curr.node.right!=null) q.add(new Pair(curr.node.right, 2*idx+2));
-            }
-            maxWidth = Math.max(maxWidth, (int)(last - first + 1));
-        }
+        maxWidth =  Integer.MIN_VALUE;
+        bfs(root);
         return maxWidth;
+
     }
 }
