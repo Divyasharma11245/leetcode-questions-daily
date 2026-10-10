@@ -40,13 +40,14 @@ class Solution {
         int time = 0;
         while(!q.isEmpty()){
             int size = q.size();
+            time++;
             for(int i = 0; i<size; i++){
                 TreeNode curr = q.poll();
                 if(curr.left!=null&&set.add(curr.left)) q.offer(curr.left);
                 if(curr.right!=null&&set.add(curr.right)) q.offer(curr.right);
                 if(map.get(curr)!=null&&set.add(map.get(curr))) q.offer(map.get(curr));
             }
-            time++;
+            
         }
         return time-1;
     }
