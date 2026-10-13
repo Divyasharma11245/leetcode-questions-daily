@@ -14,20 +14,16 @@
  * }
  */
 class Solution {
+    ArrayList<Integer> list = new ArrayList<>();
+    private void inorder(TreeNode root){
+        if(root==null) return;
+        inorder(root.left);
+        list.add(root.val);
+        inorder(root.right);
+    }
     public int kthSmallest(TreeNode root, int k) {
-        PriorityQueue<Integer> ans = new PriorityQueue<>();
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);
-        while(!q.isEmpty()){
-            TreeNode curr = q.poll();
-            ans.offer(curr.val);
-            if(curr.left!=null) q.offer(curr.left);
-            if(curr.right!=null) q.offer(curr.right);
-        } 
-        while(k>1){
-            ans.remove();
-            k--;
-        }
-        return ans.peek();
+        inorder(root);
+        if(list.size()==0) return -1;
+        return list.get(k-1);
     }
 }
