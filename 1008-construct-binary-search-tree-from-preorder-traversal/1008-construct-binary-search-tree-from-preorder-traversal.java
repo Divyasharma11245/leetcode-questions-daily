@@ -15,12 +15,13 @@
  */
 class Solution {
     int i = 0;
-    private TreeNode build(int[]preorder,int bound){
-        if(i>=preorder.length||preorder[i]>=bound) return null;
-        TreeNode root = new TreeNode(preorder[i]);
-        i++;
-        root.left = build(preorder,root.val);
-        root.right = build(preorder,bound);
+    private TreeNode build(int[] preorder, int upperbound){
+        if(i==preorder.length||preorder[i]>upperbound){
+            return null;
+        }
+        TreeNode root = new TreeNode(preorder[i++]);
+        root.left = build(preorder, root.val);
+        root.right = build(preorder, upperbound);
         return root;
     }
     public TreeNode bstFromPreorder(int[] preorder) {
