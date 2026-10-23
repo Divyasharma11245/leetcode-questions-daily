@@ -1,59 +1,44 @@
 class Solution {
-    class Info{
-        int i;
-        int j;
-        int time;
-        Info(int i, int j, int t){
-            this.i = i;
-            this.j = j;
-            this.time = t;
-        }
-    }
     public int orangesRotting(int[][] grid) {
-        Queue<Info> q = new LinkedList<>();
+        Queue<int[]> q = new LinkedList<>();
+        int fresh = 0;
         for(int i = 0; i<grid.length; i++){
             for(int j = 0; j<grid[0].length; j++){
-                if(grid[i][j]==2){
-                    q.add(new Info(i, j, 0));
-                }
+                if(grid[i][j]==1) fresh++;
+                if(grid[i][j]==2) q.add(new int[]{i, j});
             }
         }
+        if(fresh==0) return 0;
         boolean vis[][] = new boolean[grid.length][grid[0].length];
-        int maxTime = 0;
+        int count = 0;
         while(!q.isEmpty()){
-            Info curr = q.remove();
-            int i = curr.i;
-            int j = curr.j;
-            int time = curr.time;
-            maxTime = Math.max(time, maxTime);
-            if(i+1<grid.length&&grid[i+1][j]==1&&!vis[i+1][j]){
-                vis[i+1][j] = true;
-                grid[i+1][j] = 2;
-                q.add(new Info(i+1, j, time+1));
-            }
-            if(j+1<grid[0].length&&grid[i][j+1]==1&&!vis[i][j+1]){
-                vis[i][j+1] = true;
-                grid[i][j+1] = 2;
-                q.add(new Info(i, j+1, time+1));
-            }
-            if(i-1>=0&&grid[i-1][j]==1&&!vis[i-1][j]){
-                vis[i-1][j] = true;
-                grid[i-1][j] = 2;
-                q.add(new Info(i-1, j, time+1));
-            }
-            if(j-1>=0&&grid[i][j-1]==1&&!vis[i][j-1]){
-                vis[i][j-1] = true;
-                grid[i][j-1] = 2;
-                q.add(new Info(i, j-1, time+1));
-            }
-        }
-        for(int i = 0; i<grid.length; i++){
-            for(int j = 0; j<grid[0].length; j++){
-                if(grid[i][j]==1){
-                    return -1;
+            int size = q.size();
+            for(int i = 0; i<size; i++){
+                int[] curr = q.poll();
+                int currI = curr[0];
+                int currJ = curr[1];
+                int dir[][] = new int[][]{{0,1}, {0,-1}, {1, 0}, {-1, 0}};
+                for(int im = 0; im<dir.length; im++){
+                    int x = currI+dir[im][0];
+                    int  y = currJ+dir[im][1];
+                    if(x<0||y<0||x>=grid.length||y>=grid[0].length){
+                        continue;
+                    }
+                    if(grid[x][y]==1&&!vis[x][y]){
+                        q.add(new int[]{x, y});
+                        vis[x][y]=true;
+                        fresh--;
+                        grid[x][y] = 2;
+                    }
+
                 }
+                
             }
+
+           
+            count++;
         }
-        return maxTime;
+        if(fresh!=0) return -1;
+         return count-1;
     }
 }
