@@ -1,36 +1,37 @@
 class Solution {
-    private int dfsUtil(int[][] grid, int i, int j){
-        if(i<0||j<0||i>=grid.length||j>=grid[0].length){
-            return 0;
+    private int bfs(int[][] grid, int i, int j){
+        Queue<int[]> q = new LinkedList<>();
+        int node = 1;
+        q.offer(new int[]{i, j});
+        grid[i][j] = 2;
+        while(!q.isEmpty()){
+            int[] curr = q.poll();
+            int currI = curr[0];
+            int currJ = curr[1];
+            int dir[][] = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+            for(int im = 0; im<dir.length; im++){
+                int x = currI+dir[im][0];
+                int y = currJ+dir[im][1];
+                if(x>=0&&y>=0&&x<grid.length&&y<grid[0].length&&grid[x][y]==1){
+                    q.offer(new int[]{x, y});
+                    grid[x][y] = 2;
+                    node++;
+                }
+            }
+            
         }
-        if(grid[i][j]==0){
-            return 0;
-        }
-        grid[i][j] = 0;
-
-        int area = 1;
-
-        area += dfsUtil(grid, i-1, j);
-        area += dfsUtil(grid, i, j+1);
-        area += dfsUtil(grid, i+1, j);
-        area += dfsUtil(grid, i, j-1);
-
-        return area;
-
+        return node;
     }
     public int maxAreaOfIsland(int[][] grid) {
-        int n= grid.length;
-        int m = grid[0].length;
-        int max = 0;
-        int count = 0;
-        for(int i = 0; i<n; i++){
-            for(int j = 0; j<m; j++){
+        int maxArea = 0;
+        for(int i = 0; i<grid.length; i++){
+            for(int j = 0; j<grid[0].length; j++){
                 if(grid[i][j]==1){
-                    count = dfsUtil(grid, i, j);
-                    max = Math.max(count, max);
+                    int area = bfs(grid, i, j);
+                    maxArea = Math.max(area, maxArea);
                 }
             }
         }
-        return max;
+        return maxArea;
     }
 }
