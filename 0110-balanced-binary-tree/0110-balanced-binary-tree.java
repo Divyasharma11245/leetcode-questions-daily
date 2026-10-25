@@ -16,17 +16,15 @@
 class Solution {
     private int level(TreeNode root){
         if(root==null) return 0;
-        int leftLevel = level(root.left);
-        int rightLevel = level(root.right);
-        return Math.max(leftLevel, rightLevel)+1;
+        int left = level(root.left);
+        int right = level(root.right);
+        return Math.max(right, left)+1;
     }
     public boolean isBalanced(TreeNode root) {
         if(root==null) return true;
-        int leftH = level(root.left);
-        int rightH = level(root.right);   
-        int diff = Math.abs(leftH- rightH);
-        if(diff>1) return false;
+        int leftLevel = level(root.left);
+        int rightLevel = level(root.right);
+        if(Math.abs(leftLevel-rightLevel)>1) return false;
         return isBalanced(root.left)&&isBalanced(root.right);
-        
-        }
+    }
 }
