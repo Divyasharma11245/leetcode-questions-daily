@@ -14,13 +14,24 @@
  * }
  */
 class Solution {
-    private boolean check(TreeNode right, TreeNode left){
-        if(right==null&&left==null) return true;
-        if(right==null||left==null) return false;
-        if((right.val==left.val)&&check(right.left, left.right)&&check(right.right, left.left)) return true;
-        return false;
-    }
     public boolean isSymmetric(TreeNode root) {
-        return check(root.left, root.right);
+        if(root==null) return true;
+        Queue<TreeNode> q1 = new LinkedList<>();
+        Queue<TreeNode> q2 = new LinkedList<>();
+        q1.offer(root.left);
+        q2.offer(root.right);
+       
+        while(!q1.isEmpty()&&!q2.isEmpty()){
+            TreeNode leftCurr = q1.poll();
+            TreeNode rightCurr = q2.poll();
+            if(leftCurr==null&&rightCurr==null) continue;
+            if(leftCurr==null||rightCurr==null) return false;
+            if(leftCurr.val!=rightCurr.val) return false;
+            q1.offer(leftCurr.left);
+            q2.offer(rightCurr.right);
+            q1.offer(leftCurr.right);
+            q2.offer(rightCurr.left);
+        }
+        return true;
     }
 }
