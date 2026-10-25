@@ -21,7 +21,7 @@ class Solution {
         q1.offer(root.left);
         q2.offer(root.right);
        
-        while(!q1.isEmpty()&&!q2.isEmpty()){
+        while(!q1.isEmpty()||!q2.isEmpty()){
             TreeNode leftCurr = q1.poll();
             TreeNode rightCurr = q2.poll();
             if(leftCurr==null&&rightCurr==null) continue;
