@@ -1,25 +1,29 @@
 class Solution {
+    private boolean dfs(int[][] graph, int color[], int curr, int currColor){
+        color[curr] = currColor;
+        for(int i = 0; i<graph[curr].length; i++){
+            int neigh = graph[curr][i];
+            if(color[neigh]==-1){
+                color[neigh] = 1-currColor;
+                if(!dfs(graph, color, neigh, color[neigh])){
+                    return false;
+                };
+            }else if(color[neigh] == currColor) return false;
+        }
+        return true;
+    }
     public boolean isBipartite(int[][] graph) {
-        Queue<Integer> q = new LinkedList<>();
-        int col[] = new int[graph.length];
-        Arrays.fill(col, -1);
-        for(int i = 0; i<graph.length; i++){
-            if(col[i]==-1){
-            q.add(i);
-            col[i] = 0;
+        int V = graph.length;
+        int color[] = new int[V];
+        Arrays.fill(color, -1);
+        for(int i = 0; i<V; i++){
+            if(color[i]==-1){
+            if(!dfs(graph, color, i, 0)){
+                return false;
+            }
             }
 
-            while(!q.isEmpty()){
-                int curr = q.remove();
-                for(int j = 0; j<graph[curr].length; j++){
-                    int neigh = graph[curr][j]; 
-                    if(col[neigh]==-1){
-                        col[neigh] = col[curr]==0?1:0;
-                        q.add(neigh);
-                    }else if(col[neigh]==col[curr]) return false;
-                }
-            }
-        }
+        } 
         return true;
     }
 }
