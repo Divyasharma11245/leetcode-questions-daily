@@ -14,17 +14,26 @@
  * }
  */
 class Solution {
-    int i = 0;
-    private TreeNode build(int[] preorder, int upperbound){
-        if(i==preorder.length||preorder[i]>upperbound){
-            return null;
-        }
-        TreeNode root = new TreeNode(preorder[i++]);
-        root.left = build(preorder, root.val);
-        root.right = build(preorder, upperbound);
-        return root;
+    HashMap<Integer, Integer> map = new HashMap<>();
+    int preIdx = 0;
+    private TreeNode build(int[] preorder, int[] inorder, int start, int end){
+        if(start>end) return null;
+        TreeNode node = new TreeNode(preorder[preIdx++]);
+        int inIdx = map.get(node.val);
+        node.left = build(preorder, inorder, start, inIdx-1);
+        node.right = build(preorder, inorder, inIdx+1, end);
+        return node;
     }
     public TreeNode bstFromPreorder(int[] preorder) {
-        return build(preorder, Integer.MAX_VALUE);
+        int[] inorder = new int[preorder.length];
+        for(int i = 0; i<preorder.length; i++){
+            inorder[i]=preorder[i];
+        }
+
+        Arrays.sort(inorder);
+        for(int i = 0; i<inorder.length; i++){
+            map.put(inorder[i], i);
+        }
+        return build(preorder, inorder, 0, inorder.length-1);
     }
 }
