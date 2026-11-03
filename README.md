@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1020-number-of-enclaves) |
 | [1035-uncrossed-lines](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1035-uncrossed-lines) |
 | [1049-last-stone-weight-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1049-last-stone-weight-ii) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1200-minimum-absolute-difference](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1200-minimum-absolute-difference) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1248-count-number-of-nice-subarrays) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
@@ -1019,6 +1020,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1020-number-of-enclaves) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
@@ -1106,6 +1108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1020-number-of-enclaves) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1254-number-of-closed-islands](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1254-number-of-closed-islands) |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1901-find-a-peak-element-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1901-find-a-peak-element-ii) |
