@@ -1,61 +1,54 @@
 class Solution {
-    class Edge{
-        int u;
-        int v; 
-        int wt;
-        Edge(int u, int v, int wt){
-            this.u = u;
-            this.v = v;
-            this.wt = wt;
+    class Pair{
+        int node;
+        int dist;
+        Pair(int node, int dist){
+            this.node = node;
+            this.dist = dist;
         }
     }
-
-    class Info{
-            int src;
-            int cost;
-            int stops;
-            Info(int src, int c, int st){
-                this.src = src;
-                this.cost = c;
-                this.stops = st;
-            }
+    class Tuple{
+        int stop;
+        int dist;
+        int node;
+        Tuple(int stop, int dist, int node){
+            this.stop = stop;
+            this.dist = dist;
+            this.node = node;
+        }
     }
-
-    private void createGraph(int[][] flights, ArrayList<Edge> graph[]){
-        for(int i = 0; i<graph.length; i++){
-            graph[i] = new ArrayList<>();
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
+        for(int i = 0; i<n; i++){
+            adj.add(new ArrayList<>());
         }
 
         for(int i = 0; i<flights.length; i++){
-            int u = flights[i][0];
-            int v = flights[i][1];
-            int wt = flights[i][2];
-
-            Edge e = new Edge(u, v, wt);
-            graph[u].add(e);
+            adj.get(flights[i][0]).add(new Pair(flights[i][1], flights[i][2]));
         }
-    }
 
-    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        ArrayList<Edge> graph[] = new ArrayList[n];
-        createGraph(flights, graph);
+        int dist[] = new int[n];
+        Arrays.fill(dist, (int)1e9);
 
-        int dist[] = new int[graph.length];
-        Arrays.fill(dist, Integer.MAX_VALUE);
+        Queue<Tuple> q= new LinkedList<>();
+
         dist[src] = 0;
-        Queue<Info> q = new LinkedList<>();
-        q.add(new Info(src, 0, 0));
+        q.add(new Tuple(0, 0, src));
         while(!q.isEmpty()){
-            Info curr = q.remove();
-            if(curr.stops>k) break;
-            for(int i = 0; i<graph[curr.src].size(); i++){
-                Edge neigh = graph[curr.src].get(i);
-                if(curr.cost+neigh.wt<dist[neigh.v]){
-                    dist[neigh.v] = curr.cost+neigh.wt;
-                    q.add(new Info(neigh.v, dist[neigh.v], curr.stops + 1));
+            Tuple curr = q.poll();
+            int currStop = curr.stop;
+            int currDist = curr.dist;
+            int currNode = curr.node;
+            for(int i = 0; i<adj.get(currNode).size(); i++){
+                int neigh = adj.get(currNode).get(i).node;
+                int neighDist = adj.get(currNode).get(i).dist;
+                if(dist[neigh]>neighDist+currDist&&currStop<=k){
+                    dist[neigh] = neighDist+currDist;
+                    q.add(new Tuple(currStop+1, dist[neigh], neigh));
                 }
             }
         }
-        return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
+        if(dist[dst]==(int)1e9) return -1;
+        return dist[dst];
     }
 }
