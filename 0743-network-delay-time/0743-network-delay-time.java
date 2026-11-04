@@ -1,62 +1,40 @@
 class Solution {
-    class Pair implements Comparable<Pair>{
-        int node;
-        int dist;
-        public Pair(int node, int dist){
-            this.node = node;
-            this.dist = dist;
-        }
-
-        @Override
-        public int compareTo(Pair p2){
-            return this.dist-p2.dist;
-        }
-    }
     public int networkDelayTime(int[][] times, int n, int k) {
-
-        ArrayList<Pair>[] graph = new ArrayList[n + 1];
-        for (int i = 1; i <= n; i++) {
-            graph[i] = new ArrayList<>();
+        ArrayList<ArrayList<int[]>> adj = new ArrayList<>();
+        for(int i = 0; i<=n; i++){
+            adj.add(new ArrayList<>());
         }
 
-        for (int[] edge : times) {
-            int u = edge[0];
-            int v = edge[1];
-            int w = edge[2];
-            graph[u].add(new Pair(v, w));
+        for(int i = 0; i<times.length; i++){
+            adj.get(times[i][0]).add(new int[]{times[i][1], times[i][2]});
         }
 
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b)->a[0]-b[0]);
         int dist[] = new int[n+1];
-        for(int i = 0; i<dist.length; i++){
-            if(i!=k){
-                dist[i]=Integer.MAX_VALUE;
-            }
-        }
-
-        PriorityQueue<Pair> pq = new PriorityQueue<>();
-        
-        pq.add(new Pair(k, 0));
+        pq.add(new int[]{0, k});
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[k] = 0;
         while(!pq.isEmpty()){
-            Pair curr = pq.poll();
-            int node = curr.node;
-            int d = curr.dist;
-            if (d > dist[node]) continue;
-
-            for (int i = 0; i < graph[node].size(); i++) {
-                Pair neigh = graph[node].get(i);
-
-                if (dist[node] + neigh.dist < dist[neigh.node]) {
-                    dist[neigh.node] = dist[node] + neigh.dist;
-                    pq.add(new Pair(neigh.node, dist[neigh.node]));
-                }   
+            int curr[] = pq.poll();
+            int currD = curr[0];
+            int currN = curr[1];
+            if(currD > dist[currN]) {
+                continue;
+            }
+            for(int i = 0; i<adj.get(currN).size(); i++){
+                int neighN = adj.get(currN).get(i)[0];
+                int neighD = adj.get(currN).get(i)[1];
+                if(dist[neighN]>neighD+currD){
+                    dist[neighN] = neighD+currD;
+                    pq.add(new int[]{dist[neighN], neighN});
+                }
             }
         }
-        int ans = 0;
-        for (int i = 1; i <= n; i++) {
-            if (dist[i] == Integer.MAX_VALUE) return -1;
-            ans = Math.max(ans, dist[i]);
+        int max = Integer.MIN_VALUE;
+        for(int i = 1; i<dist.length; i++){
+            if(dist[i]==Integer.MAX_VALUE) return -1;
+            max = Math.max(max, dist[i]);
         }
-
-        return ans;
+        return max;
     }
 }
