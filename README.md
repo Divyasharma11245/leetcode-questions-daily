@@ -383,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1143-longest-common-subsequence) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2742-painting-the-walls](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2742-painting-the-walls) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -1085,17 +1086,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1971-find-if-path-exists-in-graph) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2685-count-the-number-of-complete-components](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/2685-count-the-number-of-complete-components) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0210-course-schedule-ii) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Matrix
 |  |
 | ------- |
@@ -1256,4 +1260,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/0743-network-delay-time) |
 | [1631-path-with-minimum-effort](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1631-path-with-minimum-effort) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/Divyasharma11245/leetcode-questions-daily/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
