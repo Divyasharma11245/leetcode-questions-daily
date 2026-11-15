@@ -1,54 +1,38 @@
 class Solution {
-    class Pair{
-        int node;
-        int dist;
-        Pair(int node, int dist){
-            this.node = node;
-            this.dist = dist;
-        }
-    }
-    class Tuple{
-        int stop;
-        int dist;
-        int node;
-        Tuple(int stop, int dist, int node){
-            this.stop = stop;
-            this.dist = dist;
-            this.node = node;
-        }
-    }
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
+        ArrayList<ArrayList<int[]>> adj = new ArrayList<>();
+        int dist[] = new int[n];
         for(int i = 0; i<n; i++){
             adj.add(new ArrayList<>());
         }
 
         for(int i = 0; i<flights.length; i++){
-            adj.get(flights[i][0]).add(new Pair(flights[i][1], flights[i][2]));
+            int u = flights[i][0];
+            int v = flights[i][1];
+            int d = flights[i][2];
+            adj.get(u).add(new int[]{v, d});
         }
 
-        int dist[] = new int[n];
-        Arrays.fill(dist, (int)1e9);
+        Queue<int[]> q = new LinkedList<>();
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        q.add(new int[]{0, 0, src});
+        dist[src]  = 0;
 
-        Queue<Tuple> q= new LinkedList<>();
-
-        dist[src] = 0;
-        q.add(new Tuple(0, 0, src));
         while(!q.isEmpty()){
-            Tuple curr = q.poll();
-            int currStop = curr.stop;
-            int currDist = curr.dist;
-            int currNode = curr.node;
+            int curr[] = q.poll();
+            int currStop = curr[0];
+            int currDist = curr[1];
+            int currNode = curr[2];
             for(int i = 0; i<adj.get(currNode).size(); i++){
-                int neigh = adj.get(currNode).get(i).node;
-                int neighDist = adj.get(currNode).get(i).dist;
-                if(dist[neigh]>neighDist+currDist&&currStop<=k){
-                    dist[neigh] = neighDist+currDist;
-                    q.add(new Tuple(currStop+1, dist[neigh], neigh));
+                int neighNode = adj.get(currNode).get(i)[0];
+                int neighDist = adj.get(currNode).get(i)[1];
+                if(dist[neighNode]>currDist+neighDist&&currStop<=k){
+                    dist[neighNode] = currDist+neighDist;
+                    q.add(new int[]{currStop+1, dist[neighNode], neighNode});
                 }
             }
         }
-        if(dist[dst]==(int)1e9) return -1;
+        if(dist[dst]==Integer.MAX_VALUE) return -1;
         return dist[dst];
     }
 }
