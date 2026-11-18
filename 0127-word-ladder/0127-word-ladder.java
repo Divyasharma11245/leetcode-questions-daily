@@ -1,39 +1,36 @@
 class Solution {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        if(beginWord.equals(endWord)){
-            return 1;
+    class Pair{
+        String word;
+        int step;
+        Pair(String word, int step){
+            this.word = word;
+            this.step = step;
         }
-        Queue<String> q = new LinkedList<>();
-        Set<String> set = new HashSet<>(wordList);
-        if(!set.contains(endWord)) return 0;
-
-        q.add(beginWord);
-
-        int ans = 1;
+    }
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Queue<Pair> q = new LinkedList<>();
+        Set<String> set = new HashSet<>();
+        for(int i= 0; i<wordList.size(); i++){
+            set.add(wordList.get(i));
+        }
+        q.add(new Pair(beginWord, 1));
         while(!q.isEmpty()){
-            int size = q.size();
-            for(int i = 0; i<size; i++){
-                char[] curr = q.poll().toCharArray();
-
-                for(int j = 0; j<curr.length; j++){
-                    char ch = curr[j];
-
-                    for(char c = 'a'; c<='z'; c++){
-                        curr[j] = c;
-
-                        String word = String.valueOf(curr);
-                        if(word.equals(endWord)){
-                            return ans+1;
-                        }
-                        if(set.contains(word)){
-                            set.remove(word);
-                            q.add(word);
-                        }
-                    }
-                    curr[j] = ch;
+            Pair curr = q.poll();
+            String currWord = curr.word;
+            int currStep = curr.step;
+            if(currWord.equals(endWord)) return currStep;
+            for(char ch = 'a'; ch<='z'; ch++){
+                for(int i = 0; i<currWord.length(); i++){
+                    char currWordArr[] = currWord.toCharArray();
+                    currWordArr[i] = ch;
+                    String currNewWord = new String(currWordArr);
+                if(set.contains(currNewWord)){
+                    set.remove(currNewWord);
+                    q.add(new Pair(currNewWord, currStep+1));
                 }
+                }
+
             }
-           ans++; 
         }
         return 0;
     }
